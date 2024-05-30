@@ -1,0 +1,43 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.2*%
+%TF.CreationDate,2024-05-30T02:19:43-04:00*%
+%TF.ProjectId,Line-following-learn-to-solder-kit,4c696e65-2d66-46f6-9c6c-6f77696e672d,0*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.2) date 2024-05-30 02:19:43*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRotRect*
+0 Rectangle, with rotation*
+0 The origin of the aperture is its center*
+0 $1 length*
+0 $2 width*
+0 $3 Rotation angle, in degrees counterclockwise*
+0 Add horizontal line*
+21,1,$1,$2,0,0,$3*%
+G04 Aperture macros list end*
+%ADD10O,3.000000X2.500000*%
+%ADD11C,2.000000*%
+%ADD12RotRect,2.000000X2.000000X45.000000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,M2*%
+X116793717Y-82480000D03*
+X118090000Y-77730000D03*
+%TD*%
+%TO.C,M1*%
+X64826307Y-82050000D03*
+X63530000Y-77300000D03*
+%TD*%
+D11*
+%TO.C,BT1*%
+X121012287Y-152682710D03*
+D12*
+X123012287Y-150682710D03*
+%TD*%
+M02*

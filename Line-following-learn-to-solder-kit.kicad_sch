@@ -4,6 +4,13 @@
 	(generator_version "8.0")
 	(uuid "1970d4a7-d551-4342-b9ff-d1e2616c7e7e")
 	(paper "USLetter")
+	(title_block
+		(title "Line Following Bot")
+		(date "2024-05-30")
+		(rev "0")
+		(company "Team 3140 Flagship Robotics")
+		(comment 1 "Engineering by Amos Manneschmidt")
+	)
 	(lib_symbols
 		(symbol "Comparator:LM393"
 			(pin_names
@@ -1109,6 +1116,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Motor:Motor_DC"
 			(pin_names
 				(offset 0)
@@ -2127,10 +2216,22 @@
 		(uuid "052a0f07-b5d5-40fe-b742-1d3db08fce59")
 	)
 	(junction
+		(at 168.91 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "077564c2-5ee6-4674-ae7c-3674e2e04726")
+	)
+	(junction
 		(at 44.45 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a82f02a-7dcc-4a12-82db-402301ef24cf")
+	)
+	(junction
+		(at 175.26 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b7ed6ad-9ab4-45b5-bcac-a8bf5df5758f")
 	)
 	(junction
 		(at 60.96 83.82)
@@ -2169,18 +2270,6 @@
 		(uuid "6cce5413-712d-419d-a9a7-5b316c96ece1")
 	)
 	(junction
-		(at 175.26 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cfbdf66-6b38-4d4a-bf40-03762cae53a2")
-	)
-	(junction
-		(at 162.56 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f38a447-35e0-4ea8-bd51-e782723c8b14")
-	)
-	(junction
 		(at 60.96 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2211,12 +2300,6 @@
 		(uuid "93f71a21-b371-4d5a-9312-0815c0c5c810")
 	)
 	(junction
-		(at 175.26 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a8923ef-bdc9-4d9e-9ef3-50fa39396d67")
-	)
-	(junction
 		(at 105.41 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2229,6 +2312,12 @@
 		(uuid "a84d2636-8635-43d0-bf59-0fb2a695111e")
 	)
 	(junction
+		(at 203.2 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa69f16d-6a53-4149-9852-9013ef710418")
+	)
+	(junction
 		(at 77.47 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2239,6 +2328,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0d73f8e-5de8-434a-a6fa-6d261c99f1fc")
+	)
+	(junction
+		(at 190.5 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b71f2c8b-c784-46fd-8007-3cf4e6a27590")
 	)
 	(junction
 		(at 90.17 142.24)
@@ -2283,12 +2378,6 @@
 		(uuid "e12c07ad-d810-46e6-90cb-bdae77986b32")
 	)
 	(junction
-		(at 203.2 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb176204-cda0-46d6-a8db-aedde8bdd4fa")
-	)
-	(junction
 		(at 31.75 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2312,42 +2401,6 @@
 		(color 0 0 0 0)
 		(uuid "f9ae2da3-d5e2-45d4-8f92-370dfd1a7f6d")
 	)
-	(no_connect
-		(at 236.22 106.68)
-		(uuid "024b5c9c-eebf-4bbb-909b-9fdfefba8716")
-	)
-	(no_connect
-		(at 243.84 116.84)
-		(uuid "05c8f440-a183-474c-931a-89374bbd5f3f")
-	)
-	(no_connect
-		(at 238.76 116.84)
-		(uuid "3b0dcfdb-ba32-42cf-938d-bb6902b0a26c")
-	)
-	(no_connect
-		(at 233.68 116.84)
-		(uuid "7863e616-706d-4042-9350-7653e76baf95")
-	)
-	(wire
-		(pts
-			(xy 203.2 128.27) (xy 203.2 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07baeb5c-32b3-4f60-b708-59345c0af96b")
-	)
-	(wire
-		(pts
-			(xy 175.26 142.24) (xy 203.2 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08811d14-1f67-474a-a882-662c0799afdb")
-	)
 	(wire
 		(pts
 			(xy 60.96 120.65) (xy 60.96 142.24)
@@ -2360,7 +2413,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 123.19) (xy 162.56 128.27)
+			(xy 224.79 120.65) (xy 224.79 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2380,13 +2433,23 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 128.27) (xy 175.26 142.24)
+			(xy 175.26 111.76) (xy 190.5 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1674c2ff-6d5d-4eb5-9362-964778a0ff63")
+		(uuid "1686507b-4844-4f9f-b3a4-0bddd6996a89")
+	)
+	(wire
+		(pts
+			(xy 203.2 123.19) (xy 203.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c787520-69c0-4964-827f-b06677674e38")
 	)
 	(wire
 		(pts
@@ -2440,16 +2503,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 115.57) (xy 162.56 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d305964-870f-4b39-aa7e-3c5f80784e03")
-	)
-	(wire
-		(pts
 			(xy 246.38 76.2) (xy 246.38 50.8)
 		)
 		(stroke
@@ -2460,7 +2513,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 91.44) (xy 175.26 109.22)
+			(xy 175.26 91.44) (xy 175.26 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2500,16 +2553,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 135.89) (xy 162.56 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3de0cf4b-a491-41c4-a37e-9fbaa0ec966a")
-	)
-	(wire
-		(pts
 			(xy 203.2 50.8) (xy 203.2 96.52)
 		)
 		(stroke
@@ -2517,6 +2560,16 @@
 			(type default)
 		)
 		(uuid "3fa3f96a-5914-421d-b310-a0d1d2702849")
+	)
+	(wire
+		(pts
+			(xy 190.5 137.16) (xy 190.5 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a16873-c1cb-4036-8fea-2ae99cd20a59")
 	)
 	(wire
 		(pts
@@ -2530,7 +2583,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 110.49) (xy 203.2 115.57)
+			(xy 168.91 111.76) (xy 168.91 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2557,6 +2610,16 @@
 			(type default)
 		)
 		(uuid "5d35ac85-a23d-4d23-a290-5b2fec9875db")
+	)
+	(wire
+		(pts
+			(xy 168.91 142.24) (xy 190.5 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "651d3d56-74c2-415f-aaa4-ed378d51a98e")
 	)
 	(wire
 		(pts
@@ -2630,23 +2693,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 115.57) (xy 224.79 110.49)
+			(xy 190.5 116.84) (xy 190.5 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7c946aea-91aa-4a6f-9db7-00b46302ea54")
-	)
-	(wire
-		(pts
-			(xy 77.47 106.68) (xy 77.47 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80262d19-289a-425f-b3d3-cb268d5cdf66")
 	)
 	(wire
 		(pts
@@ -2690,13 +2743,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 91.44) (xy 105.41 88.9)
+			(xy 105.41 88.9) (xy 105.41 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8f5cd6a5-6b5d-4b43-96ae-12a9649f44b0")
+	)
+	(wire
+		(pts
+			(xy 168.91 129.54) (xy 168.91 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "922481b1-7c18-41b8-af18-b8b4a707f71d")
 	)
 	(wire
 		(pts
@@ -2720,16 +2783,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 109.22) (xy 175.26 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94b0a6df-7d9a-4bfe-86a1-0b4935b2cf50")
-	)
-	(wire
-		(pts
 			(xy 31.75 104.14) (xy 31.75 111.76)
 		)
 		(stroke
@@ -2740,7 +2793,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 99.06) (xy 31.75 104.14)
+			(xy 31.75 95.25) (xy 31.75 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2800,7 +2853,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 106.68) (xy 203.2 110.49)
+			(xy 203.2 106.68) (xy 203.2 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2840,7 +2893,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 142.24) (xy 162.56 142.24)
+			(xy 203.2 107.95) (xy 203.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac691659-2af8-488d-adf5-258cafdbdf17")
+	)
+	(wire
+		(pts
+			(xy 152.4 142.24) (xy 168.91 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2880,7 +2943,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 50.8) (xy 31.75 91.44)
+			(xy 31.75 50.8) (xy 31.75 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2930,6 +2993,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 106.68) (xy 77.47 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7df1f03-d44f-45a3-8129-d1215ef379fc")
+	)
+	(wire
+		(pts
 			(xy 149.86 142.24) (xy 152.4 142.24)
 		)
 		(stroke
@@ -2950,23 +3023,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 123.19) (xy 224.79 128.27)
+			(xy 190.5 124.46) (xy 190.5 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bd734cd1-4e6d-41e4-a547-884b6c1d557b")
-	)
-	(wire
-		(pts
-			(xy 162.56 142.24) (xy 175.26 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1188ab8-6388-409b-a375-034cbc8c1584")
 	)
 	(wire
 		(pts
@@ -2990,6 +3053,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 142.24) (xy 203.2 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb03cb29-f3b3-4f3c-9f21-4fd5d9ede8ea")
+	)
+	(wire
+		(pts
 			(xy 203.2 50.8) (xy 175.26 50.8)
 		)
 		(stroke
@@ -2997,16 +3070,6 @@
 			(type default)
 		)
 		(uuid "cc38390a-333c-4a31-8d14-fc1078b55f99")
-	)
-	(wire
-		(pts
-			(xy 175.26 109.22) (xy 175.26 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cebe40ef-c160-4cea-ad63-e9ff496732d1")
 	)
 	(wire
 		(pts
@@ -3090,6 +3153,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 113.03) (xy 224.79 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da77b737-ad1a-4a9c-ad30-590df59619e8")
+	)
+	(wire
+		(pts
 			(xy 90.17 142.24) (xy 90.17 120.65)
 		)
 		(stroke
@@ -3120,7 +3193,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 110.49) (xy 224.79 110.49)
+			(xy 168.91 111.76) (xy 175.26 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3160,6 +3233,26 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 107.95) (xy 203.2 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5c4203-0838-443e-aeba-84ab11ff892a")
+	)
+	(wire
+		(pts
+			(xy 248.92 119.38) (xy 248.92 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf6445f-2849-4e87-9501-089f995c0eb6")
+	)
+	(wire
+		(pts
 			(xy 77.47 50.8) (xy 68.58 50.8)
 		)
 		(stroke
@@ -3180,7 +3273,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 86.36) (xy 246.38 106.68)
+			(xy 246.38 86.36) (xy 246.38 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3197,16 +3290,6 @@
 			(type default)
 		)
 		(uuid "f504aea8-5568-45e2-8ccf-3d307354e283")
-	)
-	(wire
-		(pts
-			(xy 248.92 116.84) (xy 248.92 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9801de5-e93f-4ad4-a5c6-9fb30feffeb8")
 	)
 	(wire
 		(pts
@@ -3333,7 +3416,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -3411,14 +3494,14 @@
 			)
 		)
 		(property "Value" "10"
-			(at 145.796 101.6 90)
+			(at 146.05 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "LineFollowingRobotFootPrints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_hand_soldering"
 			(at 146.05 103.378 90)
 			(effects
 				(font
@@ -3479,7 +3562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LDR07"
+		(property "Value" "LDR"
 			(at 107.95 118.1099 0)
 			(effects
 				(font
@@ -3488,7 +3571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical"
+		(property "Footprint" "LineFollowingRobotFootPrints:R_LDR_5.1x4.3mm_P3.4mm_Vertical_hand_soldering"
 			(at 109.855 116.84 90)
 			(effects
 				(font
@@ -3559,7 +3642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
+		(property "Footprint" "LineFollowingRobotFootPrints:TO-92_HandSolder"
 			(at 205.74 99.695 0)
 			(effects
 				(font
@@ -3609,7 +3692,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 86.36 90)
+		(at 146.05 86.36 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3617,7 +3701,7 @@
 		(dnp no)
 		(uuid "3e951ffb-1e25-47d1-b057-56021d2c7ab0")
 		(property "Reference" "R9"
-			(at 144.272 84.074 90)
+			(at 144.526 84.328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3625,14 +3709,14 @@
 			)
 		)
 		(property "Value" "10"
-			(at 145.796 86.36 90)
+			(at 146.304 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "LineFollowingRobotFootPrints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_hand_soldering"
 			(at 146.05 88.138 90)
 			(effects
 				(font
@@ -3677,6 +3761,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 77.47 95.25 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3684,7 +3769,7 @@
 		(dnp no)
 		(uuid "3f0757bb-db6f-4a2d-8569-0e6a6fbb3f3f")
 		(property "Reference" "R6"
-			(at 80.01 93.9799 0)
+			(at 79.502 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,7 +3778,7 @@
 			)
 		)
 		(property "Value" "51"
-			(at 80.01 96.5199 0)
+			(at 79.502 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,7 +3786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "LineFollowingRobotFootPrints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_hand_soldering"
 			(at 75.692 95.25 90)
 			(effects
 				(font
@@ -3815,7 +3900,8 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push_DPDT")
-		(at 241.3 111.76 270)
+		(at 243.84 114.3 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3823,7 +3909,7 @@
 		(dnp no)
 		(uuid "58d21d26-8f0e-4e05-8d18-7c4de97c2459")
 		(property "Reference" "SW1"
-			(at 252.73 109.22 90)
+			(at 255.27 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,15 +3917,15 @@
 			)
 		)
 		(property "Value" "SW_DPDT"
-			(at 255.524 111.506 90)
+			(at 258.064 114.554 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 246.38 111.76 0)
+		(property "Footprint" "LineFollowingRobotFootPrints:MHPS2283"
+			(at 248.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3934,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 111.76 0)
+			(at 248.92 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3857,7 +3943,7 @@
 			)
 		)
 		(property "Description" "Momentary Switch, dual pole double throw"
-			(at 241.3 111.76 0)
+			(at 243.84 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +3980,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 224.79 119.38 0)
+		(at 224.79 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3902,7 +3988,7 @@
 		(dnp no)
 		(uuid "6015aef3-a17f-425a-95fd-ac4edd8cc9ea")
 		(property "Reference" "R12"
-			(at 227.33 118.1099 0)
+			(at 227.33 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3911,7 +3997,7 @@
 			)
 		)
 		(property "Value" "51"
-			(at 227.33 120.6499 0)
+			(at 227.33 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,8 +4005,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 223.012 119.38 90)
+		(property "Footprint" "LineFollowingRobotFootPrints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_hand_soldering"
+			(at 223.012 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +4015,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 119.38 0)
+			(at 224.79 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +4024,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 224.79 119.38 0)
+			(at 224.79 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +4073,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
 			(at 132.08 86.36 0)
 			(effects
 				(font
@@ -4074,7 +4160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "LineFollowingRobotFootPrints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_hand_soldering"
 			(at 59.182 95.25 90)
 			(effects
 				(font
@@ -4187,6 +4273,69 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 73.66 173.99 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "76267fd2-05e6-4daa-b06a-5b0d8c3e0f89")
+		(property "Reference" "H2"
+			(at 76.2 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole for wires"
+			(at 76.2 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LineFollowingRobotFootPrints:MountingHole_3mm"
+			(at 73.66 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 73.66 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Line-following-learn-to-solder-kit"
+				(path "/1970d4a7-d551-4342-b9ff-d1e2616c7e7e"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 44.45 116.84 0)
 		(unit 1)
@@ -4194,7 +4343,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7ac967f8-f455-404f-be17-70f73c050db6")
 		(property "Reference" "C1"
 			(at 48.26 114.6809 0)
@@ -4283,7 +4431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
 			(at 154.94 121.92 0)
 			(effects
 				(font
@@ -4345,7 +4493,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 31.75 95.25 0)
+		(at 31.75 91.44 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4353,7 +4502,7 @@
 		(dnp no)
 		(uuid "957b70db-60b0-4584-ad13-97c6548bcd17")
 		(property "Reference" "R5"
-			(at 34.29 93.9799 0)
+			(at 34.544 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +4511,7 @@
 			)
 		)
 		(property "Value" "51"
-			(at 34.29 96.5199 0)
+			(at 34.29 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,8 +4519,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 29.972 95.25 90)
+		(property "Footprint" "LineFollowingRobotFootPrints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_hand_soldering"
+			(at 29.972 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,7 +4529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 95.25 0)
+			(at 31.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4538,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 31.75 95.25 0)
+			(at 31.75 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,15 +4564,15 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer_Trim")
 		(at 105.41 60.96 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a760ca11-531b-499d-a5ba-95773767eb68")
 		(property "Reference" "R2"
-			(at 102.87 59.6899 0)
+			(at 102.87 62.2301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4581,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 102.87 62.2299 0)
+			(at 102.87 59.6901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,7 +4589,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
+		(property "Footprint" "LineFollowingRobotFootPrints:Potentiometer_Runtron_RM-065_Vertical_hand_soldering"
 			(at 105.41 60.96 0)
 			(effects
 				(font
@@ -4580,7 +4729,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
+		(property "Footprint" "LineFollowingRobotFootPrints:TO-92_HandSolder"
 			(at 177.8 84.455 0)
 			(effects
 				(font
@@ -4655,7 +4804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "LineFollowingRobotFootPrints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_hand_soldering"
 			(at 103.632 95.25 90)
 			(effects
 				(font
@@ -4725,7 +4874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "LineFollowingRobotFootPrints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_hand_soldering"
 			(at 156.718 67.31 90)
 			(effects
 				(font
@@ -4852,7 +5001,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LDR07"
+		(property "Value" "LDR"
 			(at 63.5 118.1099 0)
 			(effects
 				(font
@@ -4861,7 +5010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical"
+		(property "Footprint" "LineFollowingRobotFootPrints:R_LDR_5.1x4.3mm_P3.4mm_Vertical_hand_soldering"
 			(at 65.405 116.84 90)
 			(effects
 				(font
@@ -4905,7 +5054,8 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 175.26 120.65 0)
+		(at 203.2 118.11 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4913,7 +5063,7 @@
 		(dnp no)
 		(uuid "e134867a-2dc0-4f2d-862c-0e2eb773bf58")
 		(property "Reference" "M1"
-			(at 180.34 121.9199 0)
+			(at 208.28 116.8401 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +5072,7 @@
 			)
 		)
 		(property "Value" "DC TTMOTOR 3-6V"
-			(at 176.276 130.302 0)
+			(at 204.724 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,7 +5081,7 @@
 			)
 		)
 		(property "Footprint" "LineFollowingRobotFootPrints:TT-Motor"
-			(at 175.26 122.936 0)
+			(at 203.2 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +5090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 122.936 0)
+			(at 203.2 115.824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +5099,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 175.26 120.65 0)
+			(at 203.2 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,6 +5123,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 35.56 175.26 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3226b55-3aa1-4666-bab9-5355b21dd50e")
+		(property "Reference" "H1"
+			(at 38.1 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole for M5 skid foot"
+			(at 38.1 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_5mm_Pad_TopBottom"
+			(at 35.56 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 35.56 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Line-following-learn-to-solder-kit"
+				(path "/1970d4a7-d551-4342-b9ff-d1e2616c7e7e"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 77.47 115.57 90)
 		(unit 1)
@@ -4982,7 +5196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea1b9193-ab8a-4c44-a835-728b54f6795a")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 81.28 115.8874 90)
 			(effects
 				(font
@@ -5036,7 +5250,7 @@
 		(instances
 			(project "Line-following-learn-to-solder-kit"
 				(path "/1970d4a7-d551-4342-b9ff-d1e2616c7e7e"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5044,16 +5258,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 163.83 67.31 180)
+		(at 163.83 67.31 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea2bd743-e824-493f-a617-e7dab956d88d")
 		(property "Reference" "R4"
-			(at 166.37 66.0399 0)
+			(at 166.116 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,7 +5276,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 166.37 68.5799 0)
+			(at 166.116 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5070,7 +5284,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+		(property "Footprint" "LineFollowingRobotFootPrints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_hand_soldering"
 			(at 165.608 67.31 90)
 			(effects
 				(font
@@ -5114,7 +5328,8 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 203.2 120.65 0)
+		(at 168.91 124.46 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5122,7 +5337,7 @@
 		(dnp no)
 		(uuid "ea5167fd-5b07-47c6-802c-1f29f6e0e162")
 		(property "Reference" "M2"
-			(at 208.28 121.9199 0)
+			(at 173.99 123.1901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5131,7 +5346,7 @@
 			)
 		)
 		(property "Value" "DC TTMOTOR 3-6V"
-			(at 203.708 130.556 0)
+			(at 170.434 133.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,8 +5354,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LineFollowingRobotFootPrints:TT-Motor"
-			(at 203.2 122.936 0)
+		(property "Footprint" "LineFollowingRobotFootPrints:TT-Motor-mirrored"
+			(at 168.91 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +5364,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 122.936 0)
+			(at 168.91 122.174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +5373,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 203.2 120.65 0)
+			(at 168.91 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5183,7 +5398,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 119.38 0)
+		(at 190.5 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5191,7 +5406,7 @@
 		(dnp no)
 		(uuid "f5fea04d-3056-493f-9907-c2d02d84c5cf")
 		(property "Reference" "R11"
-			(at 165.1 118.1099 0)
+			(at 193.04 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,7 +5415,7 @@
 			)
 		)
 		(property "Value" "51"
-			(at 165.1 120.6499 0)
+			(at 193.04 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,8 +5423,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 160.782 119.38 90)
+		(property "Footprint" "LineFollowingRobotFootPrints:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal_hand_soldering"
+			(at 188.722 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5218,7 +5433,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 119.38 0)
+			(at 190.5 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5442,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 119.38 0)
+			(at 190.5 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,16 +5537,15 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 162.56 132.08 90)
+		(at 190.5 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fba710a8-ac01-411d-a629-485b97bb84f2")
 		(property "Reference" "D1"
-			(at 166.37 132.3974 90)
+			(at 194.818 132.588 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5340,7 +5554,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 166.37 134.9374 90)
+			(at 194.818 135.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5349,7 +5563,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D5.0mm"
-			(at 162.56 132.08 0)
+			(at 190.5 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5358,7 +5572,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 132.08 0)
+			(at 190.5 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5367,7 +5581,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 162.56 132.08 0)
+			(at 190.5 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5398,7 +5612,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fc1dea1e-9784-4446-a65a-5274d2a14a96")
 		(property "Reference" "R1"
 			(at 58.42 59.6899 0)
@@ -5418,7 +5631,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
+		(property "Footprint" "LineFollowingRobotFootPrints:Potentiometer_Runtron_RM-065_Vertical_hand_soldering"
 			(at 60.96 60.96 0)
 			(effects
 				(font

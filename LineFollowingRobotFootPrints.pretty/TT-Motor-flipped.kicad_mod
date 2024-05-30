@@ -1,0 +1,423 @@
+(footprint "TT-Motor-flipped"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "${REFERENCE}"
+		(at -0.25 6.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3a572a21-5569-4494-bc9b-87eadef4a0cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DC TTMOTOR 3-6V"
+		(at -1 41 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7a4096dd-ddda-4a96-9bed-bffb4e788320")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TT-Motor-flipped"
+		(at -1.5 43 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2da8e5e-07ca-42cf-b09d-8b8b02ddf19d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -1 42 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59fb7e36-9030-4fe0-a7bb-f603ca06062b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "DC Motor"
+		(at -1 42 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79f9d427-b077-4939-9e0a-7a7940f28fe9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -11.4 38.4)
+		(end -10.5 38.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6c4ecd59-4832-4e7e-b3bc-04acf119776a")
+	)
+	(fp_line
+		(start -11.4 45.6)
+		(end -11.4 38.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8c56fa11-f5d5-45f4-87c1-66959319dafe")
+	)
+	(fp_line
+		(start -10.5 -11)
+		(end -10.5 17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88249e90-2528-485f-bc4f-04685ff432c0")
+	)
+	(fp_line
+		(start -10.5 17)
+		(end -10.5 53.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d3e8de7-35bd-49d1-ac57-d3757cc08f74")
+	)
+	(fp_line
+		(start -10.5 45.6)
+		(end -11.4 45.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92ce981d-19df-4c20-93a2-5a3150f1c13b")
+	)
+	(fp_line
+		(start -10.5 53.2)
+		(end 8.5 53.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "308ffaf0-6fb1-4875-aa35-4ed3167bd293")
+	)
+	(fp_line
+		(start -10 18)
+		(end -10 49.5)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "067bd2a6-01d4-4ae1-b407-bbd3e6730fc1")
+	)
+	(fp_line
+		(start -10 49.5)
+		(end 8 49.5)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "56f2950a-16e1-4865-81f2-abc87b62c92a")
+	)
+	(fp_line
+		(start -8 -11)
+		(end -10.5 -11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8def7ed2-6bee-416f-be85-dc25da0959f4")
+	)
+	(fp_line
+		(start -8 -11)
+		(end -3.5 -11)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "14f58d33-0661-4793-96b0-39a3eaa159d0")
+	)
+	(fp_line
+		(start -6.5 -11)
+		(end -6.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3683b37c-a60e-4148-91ae-fb979412480b")
+	)
+	(fp_line
+		(start -6.5 -2.5)
+		(end -10.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "22875260-fc35-41bf-b24f-7ffe4343e4ad")
+	)
+	(fp_line
+		(start 8 18)
+		(end -10 18)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "e0b31752-d286-40b5-bb1d-a46d78081bc4")
+	)
+	(fp_line
+		(start 8 49.5)
+		(end 8 18)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "2877a627-d656-49f7-afcd-517f7de513f5")
+	)
+	(fp_line
+		(start 8.5 17)
+		(end 10.3 17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d75a903-7066-4cc4-8583-df243c0d7a13")
+	)
+	(fp_line
+		(start 8.5 17.5)
+		(end -10.5 17.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ffbc042e-9723-430d-9edd-bdd2e03001ab")
+	)
+	(fp_line
+		(start 8.5 50)
+		(end -10.5 50)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "28b38859-c5b3-40c6-9e30-545b970b0a7a")
+	)
+	(fp_line
+		(start 8.5 53.2)
+		(end 8.5 17)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37322cb6-b23c-4162-b716-dc50c5d73516")
+	)
+	(fp_line
+		(start 10.3 -11)
+		(end -3.5 -11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3c0159eb-97eb-40df-8d3d-0dcc38f3c994")
+	)
+	(fp_line
+		(start 10.3 17)
+		(end 10.3 -11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "535bb00c-a6d7-4ad2-ab14-b7a4eab63a97")
+	)
+	(fp_line
+		(start -10.4 -11)
+		(end 8.4 -11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "73b5eefa-4aaa-4507-8c2f-d8468e944af2")
+	)
+	(fp_line
+		(start -10.4 10.2)
+		(end -10.4 -11)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "381d12a5-37fe-4bd5-a222-ad8cef1115c7")
+	)
+	(fp_line
+		(start -10.4 42)
+		(end -10.4 10.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b3f77ec-a5b8-4c36-81ec-301ee8617096")
+	)
+	(fp_line
+		(start -10.4 53.2)
+		(end -10.4 42)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3189324d-e7cd-42eb-85ad-77e041c28183")
+	)
+	(fp_line
+		(start 8.4 -11)
+		(end 8.3 42)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d235abc-bcde-4412-bb6a-d079d62c28ef")
+	)
+	(fp_line
+		(start 8.4 53.2)
+		(end 8.3 42)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5bc02a0f-4cb6-4263-8fe9-ed768eedd82a")
+	)
+	(fp_line
+		(start 8.5 53.2)
+		(end -10.4 53.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "64ace566-b510-469c-827a-d6a81cc81f5a")
+	)
+	(fp_text user "Motor A"
+		(at -6 -9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1fc9ddc9-2d67-4a6b-86c8-100f2593a5ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "for motor here"
+		(at -4.75 24.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "621aa0df-e82a-468d-ba0f-2ef5fb94601d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Motor B"
+		(at -6.25 -4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "69a5d5a3-6370-449d-ad0c-82d82fda5b91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Add 3m Adhesive pad"
+		(at -9.25 22.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "723df57c-e159-4765-847a-6e52eef05ef5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1 39.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "943b9438-e22f-4333-87e4-61f228240ac0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -8.5 -9.5 180)
+		(size 3 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "21f9b646-d747-4513-837e-232b6d16ea39")
+	)
+	(pad "2" smd oval
+		(at -8.5 -4.5 180)
+		(size 3 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d428e109-c37b-4565-a9fd-df7f6589d2f2")
+	)
+	(model "${KIPRJMOD}/3d Models/GearedMotor 3-6V.STEP"
+		(offset
+			(xyz -17 28 45)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 -90 -90)
+		)
+	)
+)

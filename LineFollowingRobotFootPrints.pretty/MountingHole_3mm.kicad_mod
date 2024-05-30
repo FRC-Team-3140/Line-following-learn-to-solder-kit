@@ -1,0 +1,97 @@
+(footprint "MountingHole_3mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3mm, no annular")
+	(tags "mounting hole 3mm no annular")
+	(property "Reference" "H2"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b594077c-f353-4021-9e7d-6888413c0de6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole for wires"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "b3f7ce76-47d1-4930-97f9-5efda310c80f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "MountingHole_3mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72029641-3954-44b0-ae61-0711fa5aaf5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b65c81d6-8c11-43ec-a15e-c23446a82321")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole without connection"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e0c0f91-cbc5-44e2-89ae-d262402d82a8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 3.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "ef74b4cf-c492-4eb6-a42d-847b4f547a6f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9976f851-d558-4cd1-9db5-4899f11ea047")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b0fef76e-c89e-4bc3-af97-d17deb8d06eb")
+	)
+)
